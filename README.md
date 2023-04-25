@@ -17,7 +17,7 @@ Hi I am Andrea a Full-Stack Developer ready to learn more every day and show my 
 
 This application is called Console.log(KATA) and it is an application to solve katas, such as function puzzles with instructions
 
- ![Mobile](https://ibb.co/M7LVMMN)
+ ![Mobile]([https://ibb.co/M7LVMMN](https://i.ibb.co/njSczzk/Console-log-KATA-Mobile.png))
  ![Home page Mobile](/src/assets/images/Readme/Home%20Mobile.png)
 
 ## Useful links 🔭
