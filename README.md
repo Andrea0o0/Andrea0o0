@@ -15,10 +15,13 @@ Hi I am Andrea a Full-Stack Developer ready to learn more every day and show my 
 
 **Champions**: Games with users, to solve katas, where there is only one winner
 
-This application is called Console.log(KATA) and it is an application to solve katas, such as function puzzles with instructions
+This application is called Console.log(KATA) and it is an application to solve katas, such as function puzzles with instructions.
+
+It's full responsive in all the pages! 🙃
+
 
  ![Mobile](https://i.ibb.co/njSczzk/Console-log-KATA-Mobile.png)
- ![Home page Mobile](/src/assets/images/Readme/Home%20Mobile.png)
+ ![Video Desktop](https://user-images.githubusercontent.com/116817220/234389092-889210a7-e516-48d7-b3dc-34bee79870f0.mp4)
 
 ### Useful links 🔭
 
