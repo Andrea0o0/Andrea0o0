@@ -21,7 +21,7 @@ It's full responsive in all the pages! 🙃
 
 
  ![Mobile](https://i.ibb.co/njSczzk/Console-log-KATA-Mobile.png)
- ![Video Desktop](https://user-images.githubusercontent.com/116817220/234389092-889210a7-e516-48d7-b3dc-34bee79870f0.mp4)
+ https://user-images.githubusercontent.com/116817220/234389092-889210a7-e516-48d7-b3dc-34bee79870f0.mp4
 
 ### Useful links 🔭
 
