@@ -78,7 +78,7 @@ This is a game with two avatars to choose from, six worlds, and various opponent
 
 It can be shot, the player has 10 lives and must survive 2 minutes to win.
 
-**[The presentation explains in detail how the game works and the characters, enemies and worlds that exist](https://1drv.ms/p/s!Akm3TPUfj8PLhmOWcd6_o-DQ-JKr?e=zK0Nfy)**
+**[The presentation explains in detail how the game works and the characters, enemies and worlds that exist](https://slides.com/andrea_0o0_/deck/fullscreen)**
 
 
 ![ZOMBIELAND](https://user-images.githubusercontent.com/116817220/234453891-c9da0005-d10b-4268-91e6-3f58e36e46c7.png)
@@ -87,7 +87,7 @@ It can be shot, the player has 10 lives and must survive 2 minutes to win.
 ### Useful links 🔭
 
 - [Github Repo](https://github.com/Andrea0o0/Zombieland)
-- [Presentation slides](https://slides.com/andreagarcia-11/deck/fullscreen)
+- [Presentation slides](https://slides.com/andrea_0o0_/deck/fullscreen)
 - [Deployed game](https://andrea0o0.github.io/Zombieland/)
 
 <!--
