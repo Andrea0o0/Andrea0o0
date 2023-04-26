@@ -5,9 +5,9 @@ Hi I am Andrea a Full-Stack Developer ready to learn more every day and show my 
 # 📑 Menu
 
 - Projects ✨
-  - [Console.log(KATA) - MODULE 3](#consolelogkata-) 
-  - [COURSE4U - MODULE 2](#course4u-) 
-  - [ZOMBIELAND - MODULE 1](#course4u-) 
+  - [Console.log(KATA) ⚡ - MODULE 3](#consolelogkata-) 
+  - [COURSE4U 📖 - MODULE 2](#course4u-)
+  - [GAME ZOMBIELAND 🧟‍ - MODULE 1](#-zombieland) 
 
 ---
 # Big proyects! 🫡 
