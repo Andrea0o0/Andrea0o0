@@ -69,6 +69,27 @@ https://user-images.githubusercontent.com/116817220/234450405-f42d01f9-fec3-4211
 - [Presentation slides](https://1drv.ms/p/s!Akm3TPUfj8PLhmOWcd6_o-DQ-JKr?e=zK0Nfy)
 
 
+
+## ZOMBIELAND 🧟‍♀️ 
+
+### 📜 Description
+
+This is a game with two avatars to choose from, six worlds, and various opponents depending on the level.
+
+It can be shot, the player has 10 lives and must survive 2 minutes to win.
+
+**[The presentation explains in detail how the game works and the characters, enemies and worlds that exist](https://1drv.ms/p/s!Akm3TPUfj8PLhmOWcd6_o-DQ-JKr?e=zK0Nfy)**
+
+
+![ZOMBIELAND](https://user-images.githubusercontent.com/116817220/234453891-c9da0005-d10b-4268-91e6-3f58e36e46c7.png)
+
+
+### Useful links 🔭
+
+- [Github Repo](https://github.com/Andrea0o0/Zombieland)
+- [Presentation slides](https://slides.com/andreagarcia-11/deck/fullscreen)
+- [Deployed game](https://andrea0o0.github.io/Zombieland/)
+
 <!--
 **Andrea0o0/Andrea0o0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
