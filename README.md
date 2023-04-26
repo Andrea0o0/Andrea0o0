@@ -1,6 +1,10 @@
 ## Hi developers! 👋
 
-Hi I am Andrea a Full-Stack Developer ready to learn more every day and show my growing knowledge
+Hi I am Andrea a Full-Stack Developer ready to learn more every day and show my growing knowledge.
+
+Tech Stack:
+![Tech Stack](https://user-images.githubusercontent.com/116817220/234470716-11b18fce-8715-431b-8467-7b6438f15358.png)
+
 
 # 📑 Menu
 
