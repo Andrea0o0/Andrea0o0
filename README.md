@@ -28,7 +28,7 @@ Tech Stack:
 
 This application is called Console.log(KATA) and it is an application to solve katas, such as function puzzles with instructions.
 
-It's full responsive in all the pages! 🙃
+It's fully responsive in all the pages! 🙃
 
 
  ![Mobile](https://i.ibb.co/njSczzk/Console-log-KATA-Mobile.png)
@@ -55,7 +55,7 @@ https://user-images.githubusercontent.com/116817220/234442234-dd5e3361-d1f9-45bb
 
 COURSE4u is a state-of-the-art online learning platform and it provides users with a comprehensive and dynamic learning experience, offering the ability to browse, explore (search), and subscribe as a premium member for courses, as well as add courses to their Account and leave reviews. Course4u also provides the admin interface that can create new courses, edit current ones, and delete them.
 
-It's full responsive in all the pages! 🙃
+It's fully responsive in all the pages! 🙃
 
 
 https://user-images.githubusercontent.com/116817220/234450405-f42d01f9-fec3-4211-b056-7031fc5a34b7.mp4
