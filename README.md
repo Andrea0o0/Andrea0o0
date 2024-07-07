@@ -3,15 +3,20 @@
 Hi I am Andrea a Full-Stack Developer ready to learn more every day and show my growing knowledge.
 
 Tech Stack:
-![Tech Stack](https://user-images.githubusercontent.com/116817220/234470716-11b18fce-8715-431b-8467-7b6438f15358.png)
+![Tech Stack](https://github.com/Andrea0o0/Andrea0o0/assets/116817220/0d5b54cd-78a6-4987-9371-019cd0cb66e4)
 
 
 # 📑 Menu
 
 - Projects ✨
-  - [Console.log(KATA) ⚡ - MODULE 3](#consolelogkata-) 
-  - [COURSE4U 📖 - MODULE 2](#course4u-)
-  - [GAME ZOMBIELAND 🧟‍ - MODULE 1](#zombieland-%EF%B8%8F) 
+  - FULLSTACK MERN: 
+    - [Console.log(KATA) ⚡ - MODULE 3](#consolelogkata-) 
+    - [COURSE4U 📖 - MODULE 2](#course4u-)
+    - [GAME ZOMBIELAND 🧟‍ - MODULE 1](#zombieland-%EF%B8%8F)
+  - JAVA + SPRING BOOT:
+    - [TRAVEL AGENCY Be_travel 🧳​ ](#travel-agency-be_travel-)
+    - [SHIFT-OPERATOR 👩🏻‍💻](#shift-operator-)
+    - [EMPLOYEE MANAGEMENT 🤖](#employee-management-)
 
 ---
 # Big proyects! 🫡 
@@ -93,6 +98,318 @@ It can be shot, the player has 10 lives and must survive 2 minutes to win.
 - [Github Repo](https://github.com/Andrea0o0/Zombieland)
 - [Presentation slides](https://slides.com/andrea_0o0_/deck/fullscreen)
 - [Deployed game](https://andrea0o0.github.io/Zombieland/)
+
+
+## TRAVEL AGENCY Be_travel 🧳​ 
+
+### 📜 Description
+
+The Be_travel project is a Spring Boot application designed to manage reservations, including flights and hotels, with public routes for reservation creation due to the absence of linked users. It meets strict requirements, such as unique room numbers, accurate hotel descriptions, non-overlapping booked dates, and accurate flight details. Integrated with the MySQL database, it ensures seamless data management and validation for comprehensive travel planning.
+
+``` mermaid
+classDiagram
+
+class Hotel {
+  + id: String
+  + name: String
+  + checkIn: String
++ checkOut: String
+  + activeFlag: Boolean
+  + description: String
+  + rooms: List<Room>
+}
+
+class ReservedDate {
+  + id: Long
++ date: LocalDate
++ room: Room
+}
+
+class HotelBooking {
+    super: 
+    - id: Long
+    - activeFlag: Boolean
+    ______________________
+ + fromDate: LocalDate
++ untilDate: LocalDate
++ room: Room
++ peopleNumber: Integer
++ guests: List<Guest>
++ totalPrice: Double
+}
+
+class FlightBooking {
+     super: 
+    - id: Long
+    - activeFlag: Boolean
+    ______________________
+  + origin: String
++ destination: String
++ bookingType: Boolean
++ flightOneWay: Flight
++ flightReturn: Flight
++ peopleNumber: Integer
++ seatType: String
++ infoPassengers: List<Passenger>
++ totalPrice: Double
+}
+
+class SeatFlight {
+  + id: Long
++ rowSeat: Integer
++ columnSeat: Integer
++ seatString: String
++ price: Double
++ passengerOneWay: Passenger
++ passengerReturn: Passenger
++ flightId: Flight
+}
+
+class Passenger {
+  + id: Long
++ name: String
++ lastName: String
++ identification: String
++ email: String
++ luggageList: List<Luggage>
++ luggagePrice: Double
++ seatFlightRowColumnOneWay: SeatFlight
++ seatFlightRowColumnReturn: SeatFlight
++ seatsPrice: Double
++ totalPrice: Double
++ flightBooking: FlightBooking
+}
+
+class Luggage {
+  + id: Long
++ luggageType: String
++ description: String
++ invoiced: Boolean
++ model: Boolean
++ kg: Double
++ price: Double
++ passenger: Passenger
+}
+
+class Booking {
+    - id: Long
+    - activeFlag: Boolean
+}
+
+class Room {
+    + id: Long
+    + hotelName: String
+    + place: String
+    + roomNumber: String
+    + roomType: Integer
+    + roomTypeString: String
+    + priceNight: Double
+    + fromDate: LocalDate
+    + untilDate: LocalDate
+    + activeFlag: Boolean
+    + reservedDates: List<ReservedDate>
+    + description: String
+    + bookings: List<HotelBooking>
+    + hotel: Hotel
+}
+
+class Flight {
+    + flightNumber: String
+    + origin: String
+    + destination: String
+    + seatType: String
+    + price: Double
+    + takeoffDate: LocalDateTime
+    + arrivalDate: LocalDateTime
+    + rowsSeat: Integer
+    + columnsSeat: Integer
+    + seatPrice: Double
+    + seatsNumber: Integer
+    + reservedSeats: Integer
+    + activeFlag: Boolean
+    + oneWayBookings: List<FlightBooking>
+    + returnBookings: List<FlightBooking>
+    + seatsBooked: List<SeatFlight>
+}
+
+Booking <|-- HotelBooking: extends from Booking
+Booking <|-- FlightBooking: extends from Booking
+
+Hotel --|> Room: 1 to n
+Room --|> Hotel: n to 1
+
+Room --|> ReservedDate: 1 to n
+ReservedDate --|> Room: n to 1
+
+HotelBooking --|> Room: 1 to 1
+Room --|> HotelBooking: 1 to n
+
+FlightBooking --|> Flight: 1 to 1
+Flight --|> FlightBooking: 1 to n
+
+FlightBooking --|> SeatFlight: 1 to n
+SeatFlight --|> FlightBooking: n to 1
+
+Passenger --|> FlightBooking: 1 to n
+FlightBooking --|> Passenger: n to 1
+
+Luggage --|> Passenger: 1 to n
+Passenger --|> Luggage: n to 1
+
+```
+
+
+
+### Useful links 🔭
+
+- [Github Repo](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec4)
+- [Be_Travel Database MySql](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec4/tree/main/sql)
+- [PostMan](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec4/tree/main/postman)
+
+
+## SHIFT-OPERATOR 👩🏻‍💻
+
+### 📜 Description
+
+This Java-based shift management system efficiently handles shifts and procedures, ensuring strict input validation and MySQL integration. It offers comprehensive functions for shift management, procedure tracking, and user authentication, improving usability for citizens and administrators.
+
+``` mermaid
+classDiagram
+
+class Person {
+  -id: Long
+  -username: String
+  -password: String
+}
+
+class Citizen {
+    super: 
+    - id: Long
+    - username: String
+    - password: String
+    ______________________
+  + name: String
+  + lastName:String
+  + dateOfBirth: LocalDate
+  + shifts: List<Shift>
+  + getusername(): String
+  + getpassword(): String
+}
+
+class Administrator {
+      super: 
+    - id: Long
+    - username: String
+    - password: String
+    ______________________
+  +procedures: List<ProcedureEntity>
+}
+
+class ProcedureEntity {
+  -id: Long
+  -title: String
+  -description: String
+  -requirements: String
+  +admin: Administrator
+  +shifts: List<Shift>
+}
+
+class Shift {
+  -id: Long
+  -dateHour: LocalDateTime
+  -shiftStatus: boolean
+  -additionalInformation: String
+  +procedure: ProcedureEntity
+  +citizen: Citizen
+}
+
+Person <|-- Citizen: extends from Person
+Person <|-- Administrator: extends from Person
+Administrator --|> ProcedureEntity: 1 to n
+ProcedureEntity --|> Shift : 1 to n
+ProcedureEntity --|> Administrator : 1 to 1
+Shift --|> ProcedureEntity : 1 to 1
+Shift --|> Citizen : 1 to 1
+Citizen --|> Shift: 1 to n
+```
+
+
+### Useful links 🔭
+
+- [Github Repo](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec2)
+- [Employee Database MySql](https://github.com/Andrea0o0/Andrea0o0-Garcia-Gonzalez-Manchon-Andrea_pruebatec2/tree/main/mysql)
+
+
+
+## EMPLOYEE MANAGEMENT 🤖​ 
+
+### 📜 Description
+
+It is a Java-based system that facilitates employee management, offering CRUD functionality, input validation and an easy-to-use menu-driven interface. It ensures seamless integration with MySQL databases for efficient data manipulation and management.
+
+
+```mermaid
+mindmap
+   id)MENU 
+   Employee(
+    1. Add employee(
+        1 Add employee
+        CREATE)
+      First Name(First Name)
+      Last Name(Last Name)
+      Job Title(Job Title)
+      Salary(Salary)
+      Start Date (Start Date)
+    2. List of all employees (2 List all Employees)
+    3. Update employee information (
+        3 Update employee
+            EDIT)
+      (Find employee By ID)
+        (New Input 
+        MODIFY)
+            First Name(First Name)
+            Last Name(Last Name)
+            Job Title(Job Title)
+            Salary(Salary)
+            Start Date (Start Date)
+    4. Search employee by Job title (
+        4 Employee By JOB Title
+        SEARCH)
+        (Input Job Title)
+            (MATCH)
+            (CONTAINS)
+            (NO COINCIDENCES)
+    5. Search employee by Name (
+        5 Employee by Name
+        SEARCH)
+            (Input Name)
+                (MATCH)
+                (CONTAINS)
+                (NO COINCIDENCES)
+    6. Search employee by Last Name (
+        6 Employee by Last Name
+        SEARCH)
+            (Input Last Name)
+                (MATCH)
+                (CONTAINS)
+                (NO COINCIDENCES)
+      
+    7. Delete employee (
+        7 Delete employee)
+            Input ID
+                Delete employee by ID     
+    8. Reset Base Data (8 Delete all employees)
+      
+    9. Exit (9 EXIT)
+```
+
+
+### Useful links 🔭
+
+- [Github Repo](https://github.com/Andrea0o0/Garcia-Gonzalez-Manchon-Andrea_pruebatec1)
+- [Javadoc](https://github.com/Andrea0o0/Garcia-Gonzalez-Manchon-Andrea_pruebatec1/tree/main/src/javadoc)
+- [Employee Database MySql](https://github.com/Andrea0o0/Garcia-Gonzalez-Manchon-Andrea_pruebatec1/tree/main/src/mysqlEmployee)
+
 
 <!--
 **Andrea0o0/Andrea0o0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
